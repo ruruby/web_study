@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sign in and become our member!</title>
+  <style>
+    body{
+      <br>
+      display: table-cell;
+      vertical-align: middle;
+      background-color: #FFFFFF;
+      padding-top: 50px;
+      padding: 60px 40px;
+    }
+
+    html{
+      display: table;
+      margin: auto;
+      background-color: #FFD8D8;
+    }
+
+    .putstring{
+      padding:5px 5px;
+    }
+    .mybutton{
+      border:1x solid #ff0080;
+      background-color:#ffA7A7;
+      font:20px 고딕;
+      font-weight:bold;
+      color:#99004C;
+      padding:2px 9px;
+      margin-left: 130px;
+    }
+    .resetbutton{
+      border:1x solid #ff0080;
+      background-color:#D5D5D5;
+      font:20px 고딕;
+      font-weight:bold;
+      color:#353535;
+      padding:2px 8px;
+      margin-right: 130px;
+    }
+  </style>
+  </head>
+
+  <body>
+  <form action="" name="회원가입 페이지">
+    <p align="center"><font face="고딕" size="4"><b>SIGN IN</b></font></p><br>
+    <p><b>성별 :&nbsp&nbsp&nbsp
+    <input type="radio" name="성별" value="남"><b>남&nbsp
+    <input type="radio" name="성별" value="여"><b>여&nbsp
+    <input type="radio" name="성별" value="안알려줌" checked><b>안알려줌<br><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUsername
+    <input type="text" name="username" id="username" placeholder="아이디" class="putstring"><br><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPassword&nbsp
+    <input type="text" name="passwordimsi" id="passwordimsi" placeholder="비밀번호" class="putstring"><br><br>
+    Password Check&nbsp
+    <input type="password" name="password" id="password" placeholder="비밀번호 확인" class="putstring"><br><br>
+    가입이유 :
+    <label><input type="checkbox" name="가입이유" value="사이트가 좋아서" checked>사이트가 좋아서</label><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><input type="checkbox" name="가입이유" value="필요해서">개인적인 필요</label><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><input type="checkbox" name="가입이유" value="그냥">그냥</label><br>
+    </p>
+    <p>음식취향 :&nbsp
+      <select name="음식취향"">
+        <option value="없음" selected>없음
+        <option value="일식">일식
+        <option value="자두">자두
+        <option value="체리">체리
+      </select></p>
+
+    <p>문의사항</p>
+    <textarea name="문의사항" rows="5" cols="60" placeholder="자유롭게 입력해주세요"></textarea><br><br>
+    <input type="reset" value="RESET" class="resetbutton">
+    <input type="submit" value="SUBMIT" class="mybutton">
+
+
+  </form>
+  </body>
+  </html>
