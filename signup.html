@@ -46,24 +46,23 @@
   </head>
 
   <body>
-  <form action="" name="회원가입 페이지">
+  <form action="show.php" method="post" name="회원가입 페이지">
     <p align="center"><font face="고딕" size="4"><b>SIGN IN</b></font></p><br>
     <p><b>성별 :&nbsp&nbsp&nbsp
     <input type="radio" name="성별" value="남"><b>남&nbsp
     <input type="radio" name="성별" value="여"><b>여&nbsp
     <input type="radio" name="성별" value="안알려줌" checked><b>안알려줌<br><br>
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUsername
-    <input type="text" name="username" id="username" placeholder="아이디" class="putstring"><br><br>
+    <input type="text" name="id" id="username" placeholder="아이디" class="putstring"><br><br>
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPassword&nbsp
     <input type="text" name="passwordimsi" id="passwordimsi" placeholder="비밀번호" class="putstring"><br><br>
     Password Check&nbsp
-    <input type="password" name="password" id="password" placeholder="비밀번호 확인" class="putstring"><br><br>
+    <input type="password" name="pw" id="password" placeholder="비밀번호 확인" class="putstring"><br><br>
     가입이유 :
     <label><input type="checkbox" name="가입이유" value="사이트가 좋아서" checked>사이트가 좋아서</label><br>
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><input type="checkbox" name="가입이유" value="필요해서">개인적인 필요</label><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><input type="checkbox" name="가입이유" value="개인적인 필요">개인적인 필요</label><br>
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label><input type="checkbox" name="가입이유" value="그냥">그냥</label><br>
-    </p>
-    <p>음식취향 :&nbsp
+    </p>    <p>음식취향 :&nbsp
       <select name="음식취향"">
         <option value="없음" selected>없음
         <option value="일식">일식
